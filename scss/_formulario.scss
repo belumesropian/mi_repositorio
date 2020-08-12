@@ -1,0 +1,65 @@
+/*formulario*/
+
+.formulario {
+	padding: 40px 0;
+}
+
+.formulario h1 {
+	font-family: $font-secundaria;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.form {
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+.contactoTexto {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	padding: 20px 40px;
+	outline: none;
+	background-color: #f3f3f3;
+	color: $color-secundario;
+	font-family:$font-secundaria;
+	transition: 0.5;
+}
+
+.contactoTexto:hover {
+	box-shadow: 0 0 10px 4px #77898b;
+}
+
+.form select {
+	width: 40%;
+}
+
+textarea .contactoTexto{
+	resize: none;
+	height: 120px;
+}
+
+.botonEnviar {
+	float: right;
+	border-radius: 5px;
+	background-color: #77898b;
+	color: white;
+	border: 0;
+	padding: 12px 50px;
+	cursor: pointer;
+	transition: 0.5;
+}
+
+.botonEnviar:hover {
+	background-color: #c8cecf;
+	color: $color-secundario;
+}
+
+/*formulario*/
