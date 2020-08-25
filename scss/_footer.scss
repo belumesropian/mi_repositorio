@@ -1,25 +1,158 @@
 /*FOOTER*/
-.mb-0{
-	letter-spacing: 10px;
-	font-family:$font-logo;
+footer{
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 400px;
+}
+
+.rectangulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+
+.rectangulo__logo{
+    letter-spacing: 10px;
+	font-family:'Cagliostro', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-	color:white;
+    color:  white;
+    padding: 20px 20px 20px 20px;
+    margin-left: 80px;
+    margin-top: 20px;
 	
 }
 
-
-
-p a {
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	text-decoration: none;
+.redes{
+    width: 15%;
+    height: 20%;
+    margin-top: 5px;
+    margin-right: 250px;
 }
 
-p a:hover{
-	text-decoration: none;
-	color: #585a60;
+#twitter{
+   
+    margin-left: 47.5%;
+    display: inline-block;
+
+    
 }
 
+#face{
+  
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+#ig{
+  
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+.info{
+    width: 100%;
+    height: 300px;
+    background-color: #3a3a3a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+
+.navegacion{
+    width: 30%;
+    height: 200px;
+    background-color:  #3a3a3a;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: white;
+    
+   
+}
+
+
+.navegacion h6{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+.links{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400px;
+    
+    
+}
+
+
+.links:hover{
+    text-decoration: none;
+    color: #585a60;
+
+}
+
+
+.contacto{
+    width: 20%;
+    height: 100px;
+    background-color: #3a3a3a;
+    margin-right: 150px;
+    margin-top: 40px;
+    color: white;
+}
+
+.contacto h6{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.contacto p{
+    margin-top: 18px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+i{
+    margin-right: 1rem;
+}
+
+
+.apps{
+    width: 20%;
+    height: 100px;
+    background-color: #3a3a3a;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: white;
+}
+
+.apps h6{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+#app{
+    margin-right: 30px;
+}
 
 /*FOOTER*/
