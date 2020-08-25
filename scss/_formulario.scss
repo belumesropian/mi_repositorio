@@ -9,6 +9,7 @@
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 30px;
+	margin-left: 30px;
 
 }
 
@@ -60,6 +61,11 @@ textarea .contactoTexto{
 .botonEnviar:hover {
 	background-color: #c8cecf;
 	color: $color-secundario;
+}
+
+#contact{
+	margin-left: 50%;
+	margin-bottom: 20px;
 }
 
 /*formulario*/
