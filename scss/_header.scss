@@ -31,7 +31,7 @@
 	color: $color-principal;
 	letter-spacing: 10px;
 	font-family: $font-logo;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
 	margin-left: 80px;
 	line-height: 3;
@@ -58,7 +58,7 @@
 @media (max-width:1048px){
 
 	.menu__logo {
-		font-size:32px;
+		font-size: 14px;
 		padding-left:60px;
 	}
 
@@ -94,6 +94,7 @@
 		line-height: 30px;
 
 	}
+
 
 	nav a {
 		font-size: 20px;

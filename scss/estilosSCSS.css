@@ -39,7 +39,7 @@ nav a {
   color: #77898B;
   letter-spacing: 10px;
   font-family: "Cagliostro", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   margin-left: 80px;
   line-height: 3;
@@ -63,7 +63,7 @@ nav a {
 
 @media (max-width: 1048px) {
   .menu__logo {
-    font-size: 32px;
+    font-size: 14px;
     padding-left: 60px;
   }
   .menu__enlances {
