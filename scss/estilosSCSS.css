@@ -202,6 +202,12 @@ textarea .contactoTexto {
   margin-bottom: 20px;
 }
 
+.fondo {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+
 /*formulario*/
 /*CUERPO*/
 /* Home*/
@@ -920,6 +926,28 @@ details[open] summary:after {
 }
 
 /*Ayuda*/
+/*Contacto*/
+.fondo {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+
+.piepagina2 {
+  width: 100%;
+  height: 200px;
+  background-color: #3a3a3a;
+}
+
+.piepagina2__logo {
+  letter-spacing: 10px;
+  font-family: "Cagliostro", sans-serif;
+  color: #c8cecf;
+  font-size: 30px;
+  margin-left: 45%;
+  padding-top: 35px;
+}
+
 /*CUERPO*/
 /*FOOTER*/
 footer {
