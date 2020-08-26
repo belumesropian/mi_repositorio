@@ -1,7 +1,7 @@
 
 /*CUERPO*/
 
- /* HOME*/   
+ /* Home*/   
 
 #seccionUno {
     height: 820px;
@@ -327,16 +327,17 @@ top: 3412px;
 	background-color:  white;
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
-    width: 35%;
+    width: 33%;
     padding: 30px 30px 30px 30px;
     margin: 30px 30px 30px 30px;
     text-align: right;
     margin-left: 220px;
+    
    
 }
 
 .contenedorSiete__img{
- width: 18%;  
+ width: 13%;  
 }
 
 .contenedorSiete__titulo{
@@ -352,7 +353,7 @@ top: 3412px;
     margin-top: 10px;
     font-family:'Open Sans', sans-serif;
     line-height: 1.7;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 
@@ -363,7 +364,7 @@ top: 3412px;
 	background-color:  white;
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
-    width: 45%;
+    width: 40%;
     padding: 30px 30px 30px 30px;
     margin: 30px 30px 30px 30px;
     text-align: left;
@@ -372,7 +373,7 @@ top: 3412px;
 
 
 .contenedorSiete__img2{
-    width: 18%;  
+    width: 13%;  
    }
    
 .contenedorSiete__titulo2{
@@ -388,7 +389,7 @@ top: 3412px;
        margin-top: 10px;
        font-family:'Open Sans', sans-serif;
        line-height: 1.7;
-       font-size: 11px;
+       font-size: 12px;
    }
 
 
@@ -399,7 +400,6 @@ top: 3412px;
      display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
-   
 
  }
 
@@ -408,9 +408,7 @@ top: 3412px;
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 40px;
     text-align: left;
-    margin-left: 80px;
-    
-  
+    margin-left: 80px; 
 }
 
 
@@ -424,7 +422,6 @@ top: 3412px;
     margin-left: 90px;
     margin-top: 40px;
     margin-bottom: 40px;
-   
 
 }
 
@@ -484,7 +481,6 @@ width: 100%;
 }
 
 
-
 .contenedorDiez__titulo {
     color: white;
     font-family: 'Cormorant Garamond', serif;
@@ -508,10 +504,28 @@ width: 100%;
 }
 
 
- /* HOME*/    
+ /* Home*/    
  
+/*Quienes Somos*/
+
+.nosotros{
+
+    width: 100%;
+    height:300px;
+    background-color: #77898b ;
+}
+
+.nosotros__titulo{
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    margin-left: 36%;
+    padding-top: 110px;  
+   
+}
+
  
- /* AYUDA*/
+ /* Ayuda*/
 
 .cuerpo {
 	background-color: #f7f7f7;
@@ -534,8 +548,6 @@ width: 100%;
     padding-top: 60px;  
    
 }
-
-
 
 form{
     width: 100%;
@@ -724,4 +736,7 @@ summary::-webkit-details-marker {
     position: absolute;
     top: 1615px;
 }
+
+/*Ayuda*/
+
 /*CUERPO*/

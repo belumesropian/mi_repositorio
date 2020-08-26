@@ -39,7 +39,7 @@ nav a {
   color: #77898B;
   letter-spacing: 10px;
   font-family: "Cagliostro", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   margin-left: 80px;
   line-height: 3;
@@ -204,7 +204,7 @@ textarea .contactoTexto {
 
 /*formulario*/
 /*CUERPO*/
-/* HOME*/
+/* Home*/
 #seccionUno {
   height: 820px;
   width: 100%;
@@ -542,7 +542,7 @@ textarea .contactoTexto {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  width: 35%;
+  width: 33%;
   padding: 30px 30px 30px 30px;
   margin: 30px 30px 30px 30px;
   text-align: right;
@@ -550,7 +550,7 @@ textarea .contactoTexto {
 }
 
 .contenedorSiete__img {
-  width: 18%;
+  width: 13%;
 }
 
 .contenedorSiete__titulo {
@@ -564,7 +564,7 @@ textarea .contactoTexto {
   margin-top: 10px;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.7;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .contenedorSiete__box2 {
@@ -573,7 +573,7 @@ textarea .contactoTexto {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  width: 45%;
+  width: 40%;
   padding: 30px 30px 30px 30px;
   margin: 30px 30px 30px 30px;
   text-align: left;
@@ -581,7 +581,7 @@ textarea .contactoTexto {
 }
 
 .contenedorSiete__img2 {
-  width: 18%;
+  width: 13%;
 }
 
 .contenedorSiete__titulo2 {
@@ -595,7 +595,7 @@ textarea .contactoTexto {
   margin-top: 10px;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.7;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 #seccionOcho {
@@ -696,8 +696,23 @@ textarea .contactoTexto {
   margin-left: 35%;
 }
 
-/* HOME*/
-/* AYUDA*/
+/* Home*/
+/*Quienes Somos*/
+.nosotros {
+  width: 100%;
+  height: 300px;
+  background-color: #77898b;
+}
+
+.nosotros__titulo {
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 50px;
+  margin-left: 36%;
+  padding-top: 110px;
+}
+
+/* Ayuda*/
 .cuerpo {
   background-color: #f7f7f7;
   width: 100%;
@@ -904,6 +919,7 @@ details[open] summary:after {
   top: 1615px;
 }
 
+/*Ayuda*/
 /*CUERPO*/
 /*FOOTER*/
 footer {
