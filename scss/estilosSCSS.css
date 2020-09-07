@@ -707,7 +707,7 @@ textarea .contactoTexto {
 .cuerpo2 {
   background-color: white;
   width: 100%;
-  height: 2000px;
+  height: 2400px;
   margin-top: 10px;
   background-size: 100%;
   background-image: url(../media/fondoQs.png);
@@ -831,6 +831,93 @@ textarea .contactoTexto {
   top: 120%;
 }
 
+.valores {
+  width: 100%;
+  height: 500px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.valores__titulo {
+  color: #77898B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.valores__subtituloUno {
+  color: #3a3a3a;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 45px;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  font-weight: 400;
+}
+
+.valoresBox__items {
+  margin-top: 100px;
+  max-width: 80%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-left: 150px;
+}
+
+.valoresBox__titulo {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.50;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300px;
+  font-style: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.valoresBox__texto {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.valores__img {
+  width: 15%;
+  margin-left: 40%;
+}
+
+.valores__box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 20px 20px 20px 20px;
+  height: 280px;
+  border-color: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px 4px #f7f7f7;
+          box-shadow: 0 0 10px 4px #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 2;
+  text-align: center;
+}
+
 .partners {
   width: 100%;
   height: 600px;
@@ -853,24 +940,36 @@ textarea .contactoTexto {
 
 /* Ayuda*/
 .cuerpo {
-  background-color: #f7f7f7;
+  background-color: white;
   width: 100%;
-  height: 2200px;
+  height: 2400px;
   margin-top: 10px;
 }
 
 .ayuda {
   width: 100%;
   height: 250px;
-  background-color: #77898b;
+  background-color: white;
 }
 
 .ayuda__titulo {
-  color: white;
+  color: #77898B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  margin-left: 40%;
+  padding-top: 110px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.ayuda__subtitulo {
+  color: #3a3a3a;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 50px;
-  margin-left: 32%;
-  padding-top: 60px;
+  font-size: 45px;
+  width: 45%;
+  margin-left: 30%;
+  font-weight: 300;
 }
 
 form {
@@ -883,39 +982,10 @@ form {
   color: white;
 }
 
-form input {
-  width: 100%;
-  height: 50px;
-  background: none;
-  color: white;
-  padding-top: 20px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid white;
-  font-family: 'Open Sans', sans-serif;
-}
-
-form input:hover {
-  -webkit-box-shadow: 0 0 4px 0px #f7f7f7;
-          box-shadow: 0 0 4px 0px #f7f7f7;
-}
-
-.text-nomb {
-  margin-top: 20px;
-  position: absolute;
-  color: white;
-  opacity: 30%;
-}
-
-text-nomb:focus {
-  font-size: 9px;
-  color: #77898b;
-}
-
 .box {
   width: 70%;
   height: 220px;
-  background-color: white;
+  background-color: #FBFBFB;
   margin-left: 15%;
   margin-top: 5%;
   padding: 20px 20px 20px 20px;
@@ -943,12 +1013,12 @@ text-nomb:focus {
 }
 
 summary {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   color: black;
   font-weight: 300px;
-  font-style: italic;
   margin-left: 50px;
+  line-height: 2;
 }
 
 details summary {
@@ -968,7 +1038,6 @@ details summary {
 ::-webkit-details-marker {
   float: right;
   color: #3a3a3a;
-  margin-top: 12px;
   margin-left: 80px;
   border-radius: 20px;
 }
@@ -995,11 +1064,12 @@ details[open] summary:after {
 .consulta {
   margin-top: 200px;
   width: 60%;
-  height: 390px;
-  background-color: #3a3a3a;
+  height: 300px;
+  background-color: #77898B;
   margin-left: 20%;
   border-radius: 5px;
   padding: 60px 60px 60px 60px;
+  margin-bottom: 100px;
 }
 
 .consulta__titulo {
@@ -1022,13 +1092,13 @@ details[open] summary:after {
 #dochelp {
   margin-left: 10%;
   position: absolute;
-  top: 1615px;
+  top: 1785px;
 }
 
 .piepagina {
   width: 100%;
-  height: 200px;
-  background-color: white;
+  height: 300px;
+  background-color: #FBFBFB;
 }
 
 .piepagina__logo {
@@ -1038,12 +1108,13 @@ details[open] summary:after {
   font-size: 30px;
   margin-left: 43%;
   margin-top: 40px;
+  padding-top: 40px;
 }
 
 .redesSociales {
   width: 20%;
   height: 100px;
-  background-color: white;
+  background-color: #FBFBFB;
   margin-left: 36%;
 }
 
