@@ -503,32 +503,171 @@ width: 100%;
     margin-left: 35%;
 }
 
-
- /* Home*/    
+/* Home*/    
  
+
+
 /*Quienes Somos*/
+
+.cuerpo2 {
+    background-color: white;
+	width: 100%;
+	height: 2000px;
+    margin-top: 10px;
+    background-size: 100%;
+    background-image: url(../media/fondoQs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .nosotros{
 
     width: 100%;
-    height:300px;
-    background-color: #77898b ;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .nosotros__titulo{
-    color: white;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 50px;
-    margin-left: 36%;
+    color:  #77898B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin-left: 15%;
     padding-top: 110px;  
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.nosotros__subtituloUno {
+    color: #3a3a3a;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    width: 45%;
+    margin-left: 10%;
+    font-weight: 300;
+    
+}
+
+.nosotros__subtituloDos{
+    color:  #3a3a3a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 10%;
+    width: 40%;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 2;
    
 }
 
+.nosotros__texto{
+    color:  #3a3a3a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 45%;
+    line-height: 1.7;
+}
+
+.nosotros__foto{
+    float: right;
+    width: 30%;
+    position: relative;
+    margin-right: 50px;
+    top: 20%;
+}
+
+
+.mision{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+
+}
+
+.mision__titulo{
+    color:  #77898B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px; 
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.mision__subtituloUno {
+    color: #3a3a3a;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    width: 50%;
+    margin-left: 40%;
+    text-align: right;
+    font-weight: 400;
+    
+}
+
+.mision__subtituloDos{
+    color: #3a3a3a;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    width: 50%;
+    margin-left: 40%;
+    text-align: right;
+}
+
+
+.mision__texto{
+    color:  #3a3a3a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 55%;
+    margin-top: 30px;
+    width: 35%;
+    line-height: 1.7;
+    text-align: right;
+}
+
+.mision__foto {
+    width: 35%;
+    position: absolute;
+    margin-left: 120px;
+    top: 120%;
+}
  
+
+
+.partners{
+    width: 100%;
+    height: 600px;
+
+}
+
+
+.partners__titulo{
+    color: #3a3a3a;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    width: 70%;
+    font-weight: 600;
+    text-align: center;
+    margin-left:15%;
+    margin-bottom: 5%;
+   
+}
+
+.partners__foto{
+    margin-left: 15%;
+}
+
  /* Ayuda*/
 
 .cuerpo {
     background-color: #f7f7f7;
+    
 	width: 100%;
 	height: 2200px;
 	margin-top: 10px;
@@ -744,9 +883,9 @@ summary::-webkit-details-marker {
     
 }
 
-
-
 /*Ayuda*/
+
+
 
 /*Contacto*/
 
@@ -781,6 +920,8 @@ summary::-webkit-details-marker {
     background-color: #3a3a3a; 
     margin-left: 35%;
 }
+
+/*Contacto*/
 
 
 /*CUERPO*/
