@@ -314,8 +314,8 @@ textarea .contactoTexto {
   border-color: 1px solid white;
   border-radius: 10px;
   background-color: white;
-  -webkit-box-shadow: 0 0 10px 4px #f7f7f7;
-          box-shadow: 0 0 10px 4px #f7f7f7;
+  -webkit-box-shadow: 0 0 10px 4px #F7F7F7;
+          box-shadow: 0 0 10px 4px #F7F7F7;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   text-align: left;
@@ -448,7 +448,7 @@ textarea .contactoTexto {
   margin: 1rem auto;
   margin-bottom: 30px;
   text-align: center;
-  width: 50%;
+  width: 60%;
 }
 
 .contenedorCinco__subtitulo {
@@ -496,11 +496,11 @@ textarea .contactoTexto {
 }
 
 .contenedorSeis__subtitulo {
-  color: #3a3a3a;
+  color: #585A60;
   font-family: 'Raleway', sans-serif;
   width: 40%;
-  line-height: 2.50;
-  font-size: 15px;
+  line-height: 2;
+  font-size: 18px;
   text-align: center;
   margin: 1rem auto;
   font-weight: 500;
@@ -627,10 +627,10 @@ textarea .contactoTexto {
 
 .contenedorOcho__texto {
   color: #3a3a3a;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 40%;
   line-height: 2.50;
-  font-size: 15px;
+  font-size: 16px;
   text-align: right;
   margin-left: 90px;
   margin-top: 40px;
@@ -658,12 +658,14 @@ textarea .contactoTexto {
 }
 
 .contenedorNueve__texto {
-  color: #3a3a3a;
-  font-family: 'Open Sans', sans-serif;
-  margin: 1rem auto;
+  color: #585A60;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 33%;
   width: 60%;
   line-height: 2;
   margin-top: 30px;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .contenedorNueve__img {
@@ -673,7 +675,7 @@ textarea .contactoTexto {
 }
 
 .contenedorDiez {
-  margin-top: 200px;
+  margin-top: 100px;
   height: 600px;
   background-size: 70%;
   background-image: url(../media/fondo.png);
@@ -686,17 +688,20 @@ textarea .contactoTexto {
   color: white;
   font-family: 'Cormorant Garamond', serif;
   font-size: 40px;
-  margin-left: 40%;
+  margin-left: 36%;
   padding-top: 10%;
 }
 
 .contenedorDiez__texto {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 30%;
-  margin-left: 35%;
-  padding-top: 20px;
+  margin-left: 34%;
+  padding-top: 10px;
   line-height: 2;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .contenedorDiez__img {
@@ -763,12 +768,12 @@ textarea .contactoTexto {
 
 .nosotros__texto {
   color: #3a3a3a;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   margin-left: 10%;
   margin-top: 30px;
   width: 45%;
-  line-height: 1.7;
+  line-height: 2;
 }
 
 .nosotros__foto {
@@ -816,12 +821,12 @@ textarea .contactoTexto {
 
 .mision__texto {
   color: #3a3a3a;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   margin-left: 55%;
   margin-top: 30px;
   width: 35%;
-  line-height: 1.7;
+  line-height: 2;
   text-align: right;
 }
 
@@ -880,20 +885,22 @@ textarea .contactoTexto {
 }
 
 .valoresBox__titulo {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.50;
   margin-top: 20px;
   font-size: 20px;
   font-weight: 300px;
   text-align: center;
   margin-bottom: 20px;
-  color: #AB8A8A;
+  color: #3A3A3A;
   font-weight: 800;
+  letter-spacing: 1px;
 }
 
 .valoresBox__texto {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  color: #585A60;
 }
 
 .valores__img {
@@ -913,10 +920,10 @@ textarea .contactoTexto {
   -webkit-box-shadow: 0 0 10px 4px #f7f7f7;
           box-shadow: 0 0 10px 4px #f7f7f7;
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 20px;
   margin-right: 20px;
-  line-height: 2;
+  line-height: 1.7;
   text-align: center;
 }
 
@@ -979,9 +986,9 @@ textarea .contactoTexto {
 .escanear__subtituloUno {
   color: #3a3a3a;
   font-family: 'Raleway', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   margin-left: 10%;
-  width: 41%;
+  width: 35%;
   margin-top: 30px;
   line-height: 2.5;
   font-weight: 300;
@@ -990,7 +997,7 @@ textarea .contactoTexto {
 .escanear__subtituloDos {
   color: #3a3a3a;
   font-family: 'Raleway', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   margin-left: 10%;
   width: 40%;
   margin-top: 30px;
@@ -1001,7 +1008,7 @@ textarea .contactoTexto {
 .escanear__texto {
   color: #3a3a3a;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 10%;
   margin-top: 30px;
   width: 35%;
@@ -1030,13 +1037,13 @@ textarea .contactoTexto {
   width: 50%;
   margin-left: 25%;
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .funciones__cajas {
   margin-top: 100px;
   width: 100%;
-  height: 150px;
+  height: 180px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1050,19 +1057,39 @@ textarea .contactoTexto {
 }
 
 .funcionesBox__titulo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   color: #343348;
   font-weight: 300px;
   margin-left: 25px;
   position: relative;
-  top: 39px;
-  letter-spacing: 0.5px;
+  top: 25px;
+  letter-spacing: 1px;
+}
+
+.funcionesBox2__titulo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #343348;
+  font-weight: 300px;
+  margin-left: 25px;
+  position: relative;
+  top: 10px;
+  letter-spacing: 1px;
 }
 
 .funcionesBox__texto {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12.5px;
+  font-size: 14px;
+  color: #3a3a3a;
+  line-height: 1.7;
+  margin-left: 38px;
+}
+
+.funcionesBox2__texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
   color: #3a3a3a;
   line-height: 1.7;
   margin-left: 38px;
@@ -1075,9 +1102,9 @@ textarea .contactoTexto {
 
 .funciones__box {
   width: 35%;
-  height: 180px;
+  height: 170px;
   background-color: white;
-  padding: 20px 20px 20px 20px;
+  padding: 30px 30px 30px 30px;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1096,6 +1123,12 @@ textarea .contactoTexto {
           align-items: left;
   -webkit-box-shadow: 0 0 10px 4px #f7f7f7;
           box-shadow: 0 0 10px 4px #f7f7f7;
+  margin-bottom: 30px;
+}
+
+.funciones__box:hover {
+  -webkit-box-shadow: 0 0 10px 4px #ACADAF;
+          box-shadow: 0 0 10px 4px #ACADAF;
 }
 
 .soluciones {
@@ -1115,22 +1148,23 @@ textarea .contactoTexto {
   width: 38%;
   margin-left: 10%;
   font-weight: 500;
+  margin-bottom: 2%;
 }
 
 .soluciones__texto {
   color: #3a3a3a;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 10%;
   width: 40%;
-  margin-top: 30px;
   line-height: 2;
   font-weight: 600;
+  margin-bottom: 2%;
 }
 
 .soluciones__cajas {
   width: 85%;
-  height: 100px;
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1141,12 +1175,14 @@ textarea .contactoTexto {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  background-color: white;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .soluciones__box {
-  height: 55px;
-  width: 60%;
+  height: 80px;
+  width: 33%;
   background-color: white;
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
@@ -1159,9 +1195,9 @@ textarea .contactoTexto {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
@@ -1171,10 +1207,10 @@ textarea .contactoTexto {
 
 .solucionesBox__texto {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12.5px;
+  font-size: 14px;
   color: #3a3a3a;
   line-height: 1.7;
-  width: 70%;
+  width: 68%;
   margin-left: 20px;
   line-height: 1.7;
   top: 5%;
@@ -1193,7 +1229,7 @@ textarea .contactoTexto {
 
 .appPacientes__titulo {
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 28px;
   color: white;
   font-style: bold;
   text-align: center;
@@ -1205,13 +1241,13 @@ textarea .contactoTexto {
   font-size: 18px;
   color: white;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .appPacientes__foto {
   width: 20%;
   margin-left: 40%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 /* Pacientes*/
@@ -1359,11 +1395,11 @@ details[open] summary:after {
 }
 
 .consulta__texto {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
   color: white;
-  margin-left: 22%;
-  margin-top: 20px;
+  margin-left: 13%;
+  margin-top: 50px;
 }
 
 #dochelp {
@@ -1375,13 +1411,13 @@ details[open] summary:after {
 .piepagina {
   width: 100%;
   height: 300px;
-  background-color: #FBFBFB;
+  background-color: #3A3A3A;
 }
 
 .piepagina__logo {
   letter-spacing: 10px;
   font-family: "Cagliostro", sans-serif;
-  color: #c8cecf;
+  color: #FBFBFB;
   font-size: 30px;
   margin-left: 43%;
   margin-top: 40px;
@@ -1391,7 +1427,7 @@ details[open] summary:after {
 .redesSociales {
   width: 20%;
   height: 100px;
-  background-color: #FBFBFB;
+  background-color: #3A3A3A;
   margin-left: 36%;
 }
 
@@ -1450,7 +1486,7 @@ details[open] summary:after {
 .piepagina2__logo {
   letter-spacing: 10px;
   font-family: "Cagliostro", sans-serif;
-  color: #c8cecf;
+  color: #FBFBFB;
   font-size: 30px;
   margin-left: 42%;
   padding-top: 35px;
@@ -1461,6 +1497,38 @@ details[open] summary:after {
   height: 100px;
   background-color: #3a3a3a;
   margin-left: 35%;
+}
+
+@media (max-width: 1048px) {
+  .formulario__subtitulo {
+    font-size: 35px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 909px) {
+  .formulario__subtitulo {
+    font-size: 25px;
+    width: 100%;
+    margin-left: 18%;
+  }
+  .formulario__titulo {
+    margin-left: 35%;
+  }
+  .piepagina2__logo {
+    font-size: 20px;
+    margin-left: 39%;
+  }
+  #twitter {
+    margin-left: 25%;
+    width: 14%;
+  }
+  #face {
+    width: 7%;
+  }
+  #ig {
+    width: 12%;
+  }
 }
 
 /*Contacto*/
