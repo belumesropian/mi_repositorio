@@ -163,9 +163,7 @@
     position: absolute;
     width: 409.54px;    
     height: 754.65px;
-    left: 139px; 
- 
-    
+    left: 139px;   
 }
 
 
@@ -228,9 +226,7 @@
 .contenedorCinco {
     width: 100%;
     height: 350px;
-    margin-bottom: 100px;
-    
-  
+    margin-bottom: 100px; 
 }
 
 .contenedorCinco__titulo{
@@ -244,8 +240,6 @@
     margin-bottom: 30px;
     text-align: center;
     width: 60%;
-    
-
 }
 
 .contenedorCinco__subtitulo{
@@ -268,23 +262,20 @@
     text-align: center;
     font-size:16px;
     color: #3a3a3a;
-    
-
 }
 
 .contenedorCinco__img{
-position: absolute;
-width: 220.61px;
-height: 578px;
-left: 1082px;
-top: 3412px;
+    position: absolute;
+    width: 220.61px;
+    height: 578px;
+    left: 1082px;
+    top: 3412px;
 }
 
 
 #seccionSeis{
     width: 100%;
     height: 600px;
-
 }
 
 .contenedorSeis__titulo{
@@ -325,13 +316,11 @@ top: 3412px;
     background-image: url(../media/gomed.png);
     background-repeat: no-repeat;
     background-size: 25%;
-    background-position: center;
-   
+    background-position: center;  
 }
 
 .contenedorSiete__caja{
-    width: 45%;
-    
+    width: 45%;  
 }
 
 .contenedorSiete__box{
@@ -346,8 +335,7 @@ top: 3412px;
     margin-bottom: 20px;
     text-align: right;
     margin-left: 80px;
-    
-   
+      
 }
 
 .contenedorSiete__img{
@@ -359,10 +347,8 @@ top: 3412px;
     font-weight: 400px;
     font-size: 18px;
     margin-top: 10px;
-    letter-spacing: 1px;
-   
+    letter-spacing: 1px; 
 }
-
 
 .contenedorSiete__texto{
     margin-top: 10px;
@@ -373,8 +359,7 @@ top: 3412px;
 
 
 .contenedorSiete__caja2 { 
-    width: 31%;
-    
+    width: 31%;  
 }
 
 .contenedorSiete__box2{
@@ -394,34 +379,33 @@ top: 3412px;
 
 .contenedorSiete__img2{
     width: 10%;  
-   }
+}
    
 .contenedorSiete__titulo2{
-       font-family:'Open Sans', sans-serif;
-       font-weight: 400px;
-       font-size: 18px;
-       margin-top: 10px;
-      
-   }
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
    
    
 .contenedorSiete__texto2{
-       margin-top: 10px;
-       font-family:'Open Sans', sans-serif;
-       line-height: 1.7;
-       font-size: 14px;
-   }
+    margin-top: 10px;
+    font-family:'Open Sans', sans-serif;
+    line-height: 1.7;
+    font-size: 14px;
+}
 
 
 #seccionOcho {
-     width: 100%;
-     height: 500px;
-     margin-top: 200px;
-     display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
-
- }
+}
 
 .contenedorOcho__titulo{
     color: #3a3a3a;
@@ -442,7 +426,6 @@ top: 3412px;
     margin-left: 90px;
     margin-top: 40px;
     margin-bottom: 40px;
-
 }
 
 .contenedorOcho__img{
@@ -450,12 +433,11 @@ top: 3412px;
     width: 50%;
     right:0;
     top: 4800px;
-
 }
 
-.contenedorNueve{
-height: 300px;
-width: 100%;
+.contenedorNueve {
+    height: 300px;
+    width: 100%;
 
 }
 
@@ -466,8 +448,6 @@ width: 100%;
     font-size: 40px;
     margin-left: 30%;
     margin-top: 30px;
-
-
 }
 
 .contenedorNueve__texto{
@@ -486,7 +466,6 @@ width: 100%;
     margin-left: 35%;
     width: 20%;
     bottom: 2900px;
-   
 
 }
 
@@ -498,8 +477,7 @@ width: 100%;
     background-image: url(../media/fondo.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 100px;
-   
+    margin-bottom: 100px;  
 }
 
 
@@ -508,8 +486,7 @@ width: 100%;
     font-family: 'Cormorant Garamond', serif;
     font-size: 40px;
     margin-left: 36%;
-    padding-top: 10%;
-    
+    padding-top: 10%;   
 }
 
 .contenedorDiez__texto{
@@ -530,7 +507,6 @@ width: 100%;
 
 /* Home*/    
  
-
 
 /*Quienes Somos*/
 
@@ -571,8 +547,7 @@ width: 100%;
     font-size: 45px;
     width: 45%;
     margin-left: 10%;
-    font-weight: 300;
-    
+    font-weight: 300;  
 }
 
 .nosotros__subtituloDos{
@@ -584,8 +559,7 @@ width: 100%;
     font-style: italic;
     font-weight: bold;
     margin-top: 30px;
-    line-height: 2;
-   
+    line-height: 2; 
 }
 
 .nosotros__texto{
@@ -631,8 +605,7 @@ width: 100%;
     width: 50%;
     margin-left: 40%;
     text-align: right;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
 
 .mision__subtituloDos{
@@ -677,8 +650,7 @@ width: 100%;
     font-size: 17px; 
     letter-spacing: 5px;
     margin-bottom: 40px;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 .valores__subtituloUno {
@@ -688,8 +660,7 @@ width: 100%;
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
 
 .valoresBox__items{
@@ -720,9 +691,7 @@ width: 100%;
 .valoresBox__texto {
 	font-family: $font-secundaria;
     text-align: center;
-    color:#585A60;
-  
-     
+    color:#585A60;    
 }
 
 .valores__img {
@@ -744,15 +713,13 @@ width: 100%;
     margin-left: 20px;
     margin-right: 20px;
     line-height: 1.7;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 
 .partners{
     width: 100%;
     height: 600px;
-
 }
 
 
@@ -764,8 +731,7 @@ width: 100%;
     font-weight: 600;
     text-align: center;
     margin-left:15%;
-    margin-bottom: 5%;
-   
+    margin-bottom: 5%;  
 }
 
 .partners__foto{
@@ -801,8 +767,7 @@ width: 100%;
     font-size: 45px;
     width: 38%;
     margin-left: 10%;
-    font-weight: 500;
-    
+    font-weight: 500;   
 }
 
 .escanear__subtituloUno{
@@ -826,8 +791,7 @@ width: 100%;
     width: 40%;
     margin-top: 30px;
     line-height: 2;
-    font-weight: 500;
-   
+    font-weight: 500;  
 }
 
 .escanear__texto{
@@ -839,8 +803,7 @@ width: 100%;
     width: 35%;
     line-height: 2;
     font-weight: 700;
-    font-style: italic;
-    
+    font-style: italic;  
 }
 
 .escanear__foto{
@@ -849,7 +812,6 @@ width: 100%;
     position: relative;
     margin-right: 180px;
     bottom: 10%;
-
 }
 
 .funciones{
@@ -864,8 +826,7 @@ width: 100%;
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    font-weight: 700;
-          
+    font-weight: 700;        
 }
 
 .funciones__cajas{
@@ -902,8 +863,7 @@ width: 100%;
     letter-spacing: 1px;
 }
 
-
-    
+  
 .funcionesBox__texto {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -958,8 +918,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: right;
     background-size: 15%;
-   
-    
+  
 }
 
 .soluciones__titulo{
@@ -980,8 +939,7 @@ width: 100%;
     width: 40%;
     line-height: 2;
     font-weight: 600;
-    margin-bottom: 2%;
-   
+    margin-bottom: 2%;  
 }
 
 .soluciones__cajas{
@@ -990,8 +948,7 @@ width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
-   
+    align-items: flex-start; 
 }
 
 .soluciones__box{
@@ -1023,8 +980,6 @@ width: 100%;
     padding-top:8px;
 }
 
-
-
 .appPacientes{
     width: 100%;
     height: 550px;
@@ -1033,8 +988,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
-  
-    
+   
 }
 
 .appPacientes__titulo{
@@ -1060,11 +1014,9 @@ width: 100%;
     width: 20%;
     margin-left: 40%;
     margin-top:2%;
- 
 }
 
-
-/* Pacientes*/
+/*Pacientes*/
 
 
 /* Ayuda*/
@@ -1100,8 +1052,7 @@ width: 100%;
     font-size: 45px;
     width: 45%;
     margin-left: 33%;
-    font-weight: 300;
-    
+    font-weight: 300;   
 }
 
 form{
@@ -1128,7 +1079,6 @@ form{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 
@@ -1273,7 +1223,6 @@ summary::-webkit-details-marker {
 /*Ayuda*/
 
 
-
 /*Contacto*/
 
 .fondo{
@@ -1298,9 +1247,8 @@ summary::-webkit-details-marker {
     font-family: 'Cormorant Garamond', serif;
     font-size: 45px;
     width: 55%;
-    margin-left: 25%;
-    font-weight: 300;
-    
+    margin-left: 26%;
+    font-weight: 300;   
 }
 
 
@@ -1369,7 +1317,6 @@ summary::-webkit-details-marker {
         width: 12%;
     }
 }
-
 
 /*Contacto*/
 
